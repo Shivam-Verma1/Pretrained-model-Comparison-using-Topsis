@@ -2,15 +2,6 @@
 
 Start -> Load Data -> Preprocess Text -> Choose Metrics -> Apply TOPSIS -> Rank Models -> Visualize Results -> End
 
-```mermaid
-graph TD;
-  Start --> LoadData;
-  LoadData --> PreprocessText;
-  PreprocessText --> ChooseMetrics;
-  ChooseMetrics --> ApplyTOPSIS;
-  ApplyTOPSIS --> RankModels;
-  RankModels --> VisualizeResults;
-  VisualizeResults --> End;
 
 ## Overview
 
@@ -69,3 +60,14 @@ Next Steps:
 Feel free to analyze the provided CSV files for more insights.
 Consider adjusting the evaluation metrics or adding new models based on your specific use case.
 Use the project as a foundation for ongoing research and development in text summarization.
+
+
+```mermaid
+graph TD;
+  Start --> LoadData;
+  LoadData --> PreprocessText;
+  PreprocessText --> ChooseMetrics;
+  ChooseMetrics --> ApplyTOPSIS;
+  ApplyTOPSIS --> RankModels;
+  RankModels --> VisualizeResults;
+  VisualizeResults --> End;
