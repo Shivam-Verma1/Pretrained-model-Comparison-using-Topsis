@@ -43,7 +43,7 @@ Text summarization is a crucial natural language processing task that involves c
 1. **Ranked Table:**
 - Explore detailed ranked results in summarization_table_result.csv:
 
-| **Model**   | **Rouge Scores** | **Length of Summary** | **Training Time** |
+| **Model**   | **Rouge Scores**  | **Length of Summary** | **Training Time** |
 |-------------|-------------------|-----------------------|-------------------|
 | BERTSumExt  | 0.75              | 130                   | 9                 |
 | GPT-3       | 0.82              | 150                   | 12                |
