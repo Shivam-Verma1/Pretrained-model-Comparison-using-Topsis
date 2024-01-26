@@ -17,14 +17,43 @@ Text summarization is a crucial natural language processing task that involves c
 
 ## Project Structure:
 
-- **`summarization_data.csv`**: CSV file containing evaluation metrics for each model.
-- **`summarization_table_result.csv`**: CSV file with ranked results in tabular format.
-- **`summarization_bar_chart_data.csv`**: CSV file with data used for creating a bar chart.
-- **`summarization_bar_chart.png`**: Bar chart visualizing the model comparison.
+- **`data.csv`**: CSV file containing evaluation metrics for each model.
+- **`result.csv`**: CSV file with ranked results in tabular format.
+- **`result.csv`**: CSV file with data used for creating a bar chart.
+- **`barchart.png`**: Bar chart visualizing the model comparison.
 
 ## How to Run:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/text-summarization-comparison.git
-   cd text-summarization-comparison
+   git clone https://github.com/Shivam-Verma1/Pretrained-model-Comparison-using-Topsis.git
+
+## Results and Analysis:
+1. **Ranked Table:**
+- Explore detailed ranked results in summarization_table_result.csv:
+
+| **Model**   | **Rouge Scores** | **Length of Summary** | **Training Time** |
+|-------------|-------------------|-----------------------|-------------------|
+| BERTSumExt  | 0.75              | 130                   | 9                 |
+| GPT-3       | 0.82              | 150                   | 12                |
+| T5          | 0.78              | 140                   | 10                |
+| XLNet       | 0.76              | 135                   | 11                |
+| BART        | 0.80              | 145                   | 8                 |
+| Pegasus     | 0.79              | 138                   | 13                |
+
+
+2. **Bar Chart:**
+
+The bar chart visually represents the performance metrics of each model, providing an easy-to-understand comparison. Rouge scores, length of the summary, training time, and normalized ranks are included for comprehensive evaluation.
+
+## Analysis:
+**Model Performance:**
+GPT-3 outperforms other models in terms of Rouge scores, securing the top rank.
+BERTSumExt and T5 follow closely, showcasing competitive performance.
+Efficiency Consideration:
+BERTSumExt is the most resource-efficient, with the lowest training time.
+BART and T5 offer a balanced trade-off between Rouge scores and efficiency.
+Next Steps:
+Feel free to analyze the provided CSV files for more insights.
+Consider adjusting the evaluation metrics or adding new models based on your specific use case.
+Use the project as a foundation for ongoing research and development in text summarization.
