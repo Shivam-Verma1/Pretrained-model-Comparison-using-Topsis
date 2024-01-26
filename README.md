@@ -2,6 +2,15 @@
 
 Start -> Load Data -> Preprocess Text -> Choose Metrics -> Apply TOPSIS -> Rank Models -> Visualize Results -> End
 
+```mermaid
+graph TD;
+  Start --> LoadData;
+  LoadData --> PreprocessText;
+  PreprocessText --> ChooseMetrics;
+  ChooseMetrics --> ApplyTOPSIS;
+  ApplyTOPSIS --> RankModels;
+  RankModels --> VisualizeResults;
+  VisualizeResults --> End;
 
 ## Overview
 
