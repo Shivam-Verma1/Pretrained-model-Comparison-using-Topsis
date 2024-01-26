@@ -1,5 +1,8 @@
 # Text Summarization Model Comparison Project
 
+Start -> Load Data -> Preprocess Text -> Choose Metrics -> Apply TOPSIS -> Rank Models -> Visualize Results -> End
+
+
 ## Overview
 
 Text summarization is a crucial natural language processing task that involves condensing large documents into concise and informative summaries. This project focuses on comparing the performance of various text summarization models to help users choose the most suitable model for their specific needs.
