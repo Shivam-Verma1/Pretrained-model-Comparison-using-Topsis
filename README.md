@@ -57,6 +57,9 @@ Text summarization is a crucial natural language processing task that involves c
 
 The bar chart visually represents the performance metrics of each model, providing an easy-to-understand comparison. Rouge scores, length of the summary, training time, and normalized ranks are included for comprehensive evaluation.
 
+![Alt Text](https://github.com/Shivam-Verma1/Pretrained-model-Comparison-using-Topsis/blob/main/barchart.png?raw=true)
+
+
 ## Analysis:
 **Model Performance:**
 GPT-3 outperforms other models in terms of Rouge scores, securing the top rank.
